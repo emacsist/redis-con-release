@@ -1,5 +1,5 @@
 {
-  "comment": "redis 的 connection 清理器, 以释放无用的 connection. 默认是3个小时的空闲. idle 单位是秒",
+  "comment": "redis 的 connection 清理器, 以释放无用的 connection. 即空闲时间 > idle 值的, 就会释放掉",
   "idle": 367,
   "redis": [
     {
