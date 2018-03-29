@@ -1,0 +1,11 @@
+{
+  "comment": "redis 的 connection 清理器, 以释放无用的 connection. 默认是3个小时的空闲. idle 单位是秒",
+  "idle": 367,
+  "redis": [
+    {
+      "host": "127.0.0.1",
+      "passwd": "",
+      "port": 6379
+    }
+  ]
+}
